@@ -4,8 +4,9 @@
   <title>Greg's Java Blog</title>
 </head>
 <body>
-  <div>
   <h1>Greg's Java Blog</h1>
+
+  <div style="margin-left: 1em;">
   <h2>Differences between 'switch' and 'if/else'</h2>
     <p>First, let's define 'switch' and 'if/else':</p>
     <p><strong>if/else:</strong> When using 'if/else', you're telling the
@@ -23,14 +24,34 @@
       option when there's multiple options and you need the statement to spit
       out a value that matches.</p>
   </div>
-  <div>
+
+  <div style="margin-left: 1em;">
   <h2>Using '=' vs '==' vs '.equals'</h2>
       <p>What does each of these do?</p>
+      <p><strong>=:</strong> '=' is used to assign values to variables.</p>
+      <p><strong>==:</strong> '==' is used to compare variables to
+        a constant to check for equality.  Typically used for conditional
+        statements.  Can only be used with integers and doubles.</p>
+      <p><strong>.equals:</strong> This will compare a string to another string
+        and will only allow true or false.  '.equals' is the best way to compare
+        <em>Strings</em> for equality.</p>
   </div>
 
+  <div style="margin-left: 1em;">
+  <h2>Math.random()</h2>
+      <p><strong>What is Math?</strong></p>
+      <p>Math allows a program or application programmed in Java to execute
+        various mathematic operations.</p>
+      <p><strong>What is the return type of the ‘.random()’ method?</strong></p>
+      <p>The typical return type for the '.random()' method is a double between
+        0.0 and 1.0.</p>
+      <p><strong>Why is the 'M' in 'Math' capitalized?</strong></p>
+      <p>The 'M' is capitalized since 'Math.random()' is a class.  It is also
+        proper etiquette for other programmers in order to more easily read
+        your code.</p>
 
+  </div>
 
 </body>
-
 
 </html>
