@@ -49,8 +49,20 @@
       <p>The 'M' is capitalized since 'Math.random()' is a class.  It is also
         proper etiquette for other programmers in order to more easily read
         your code.</p>
-
   </div>
+
+  <div style="margin-left: 1em;">
+  <h2>Casting a double to an int</h2>
+      <p><strong>What it means: </strong>Casting a double to an integer means
+        manipulating what would otherwise be a number between 0.0 and 1.0 to any
+        integer.</p>
+      <p><strong>When you would do this and what is happening: </strong>You
+        would cast a double to an int when you want a random number that falls
+        outside of 0.0 to 1.0, like 1 to 10, 1 to 100, 1 to 1000, etc.  What
+        happens is you would scale the double using another larger number eg.
+        8*Math.random(), then insert '(int)' to cast X*Math.random() to an
+        integer like this: (int)(8*Math.radnom()).<p>
+
 
 </body>
 
