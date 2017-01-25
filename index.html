@@ -7,7 +7,7 @@
   <h1>Greg's Java Blog</h1>
 
   <div style="margin-left: 1em;">
-  <h2>Differences between 'switch' and 'if/else'</h2>
+    <h2>Differences between 'switch' and 'if/else'</h2>
     <p>First, let's define 'switch' and 'if/else':</p>
     <p><strong>if/else:</strong> When using 'if/else', you're telling the
       program that if the statement was true then continue down the program,
@@ -26,7 +26,7 @@
   </div>
 
   <div style="margin-left: 1em;">
-  <h2>Using '=' vs '==' vs '.equals'</h2>
+    <h2>Using '=' vs '==' vs '.equals'</h2>
       <p>What does each of these do?</p>
       <p><strong>=:</strong> '=' is used to assign values to variables.</p>
       <p><strong>==:</strong> '==' is used to compare variables to
@@ -38,7 +38,7 @@
   </div>
 
   <div style="margin-left: 1em;">
-  <h2>Math.random()</h2>
+    <h2>Math.random()</h2>
       <p><strong>What is Math?</strong></p>
       <p>Math allows a program or application programmed in Java to execute
         various mathematic operations.</p>
@@ -52,7 +52,7 @@
   </div>
 
   <div style="margin-left: 1em;">
-  <h2>Casting a double to an int</h2>
+    <h2>Casting a double to an int</h2>
       <p><strong>What it means: </strong>Casting a double to an integer means
         manipulating what would otherwise be a number between 0.0 and 1.0 to any
         integer.</p>
@@ -62,7 +62,27 @@
         happens is you would scale the double using another larger number eg.
         8*Math.random(), then insert '(int)' to cast X*Math.random() to an
         integer like this: (int)(8*Math.radnom()).<p>
+  </div>
 
+  <div style="margin-left: 1em;">
+    <h2>'for', 'while', and 'do while' loop differences</h2>
+      <p><strong>'while' loop: </strong>Will repeat as long as a given
+        condition/expression is true, it will also <em>only</em> execute if the
+        condition is true.  'while' loops are best used when you are building an
+        application where you are looking for a specific condition to be met</p>
+      <p><strong>'do while' loop: </strong>Although similar to a 'while' loop,
+        a 'do while' will always execute the body of the loop at least once, the
+        condition/expression is then checked at the end of the loop.  'do while'
+        loops are best used when you need to execute a loop to check what's in
+        the condition.  The benefit of a 'do while' loop is to ensure a block of
+        code is executed at least once.</p>
+      <p><strong>'for' loop: </strong>'for' loops are designed to be executed a
+        specified number of times as opposed to 'while' and 'do while' loops
+        which will run as long as something is true.  'for' loops are best used
+        when you know ahead of time how many iterations the loop needs to
+        perform.  A 'for' loop could be used when trying to assign numbers to a
+        given number of people.</p>
+  </div>
 
 </body>
 
