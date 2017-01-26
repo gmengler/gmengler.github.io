@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link type="text/css" rel="stylesheet" href="index.css">
   <title>Greg's Java Blog</title>
 </head>
 <body>
+  <div id="header">
   <h1>Greg's Java Blog</h1>
+  </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>Differences between 'switch' and 'if/else'</h2>
     <p>First, let's define 'switch' and 'if/else':</p>
     <p><strong>if/else:</strong> When using 'if/else', you're telling the
@@ -25,11 +28,11 @@
       out a value that matches.</p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>Using '=' vs '==' vs '.equals'</h2>
       <p>What does each of these do?</p>
-      <p><strong>=:</strong> '=' is used to assign values to variables.</p>
-      <p><strong>==:</strong> '==' is used to compare variables to
+      <p><strong>=:</strong> Used to assign values to variables.</p>
+      <p><strong>==:</strong> Used to compare variables to
         a constant to check for equality.  Typically used for conditional
         statements.  Can only be used with integers and doubles.</p>
       <p><strong>.equals:</strong> This will compare a string to another string
@@ -37,7 +40,7 @@
         <em>Strings</em> for equality.</p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>Math.random()</h2>
       <p><strong>What is Math?</strong></p>
       <p>Math allows a program or application programmed in Java to execute
@@ -51,7 +54,7 @@
         your code.</p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>Casting a double to an int</h2>
       <p><strong>What it means: </strong>Casting a double to an integer means
         manipulating what would otherwise be a number between 0.0 and 1.0 to any
@@ -64,7 +67,7 @@
         integer like this: (int)(8*Math.radnom()).<p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>'for', 'while', and 'do while' loop differences</h2>
       <p><strong>'while' loop: </strong>Will repeat as long as a given
         condition/expression is true, it will also <em>only</em> execute if the
@@ -84,7 +87,7 @@
         given number of people.</p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>import java.util.Scanner;</h2>
       <p>When you include <strong>import java.util.Scanner;</strong> at the top
         of your code, you're allowing it access to get information from the
@@ -95,14 +98,14 @@
         to take inputs from a user.</p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>'void' in a method declaration</h2>
       <p><strong>What is it?: </strong>'void' in a method declaration means that
         the method does not return a value.  A method with a return type will
         return a value, whether it be an int, double, string, etc.</p>
   </div>
 
-  <div style="margin-left: 1em;">
+  <div class="main">
     <h2>'parameters' and 'arguments'</h2>
       <p><strong>Differences: </strong>A 'parameter' is the variable in the
         declaration of a function e.g. (int x) - the parameter is an integer.
